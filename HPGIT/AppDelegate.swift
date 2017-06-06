@@ -25,7 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
-       
+       //Hello vishal here
     }
 
     func applicationDidEnterBackground(_ application: UIApplication) {
