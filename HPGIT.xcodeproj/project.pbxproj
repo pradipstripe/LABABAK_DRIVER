@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0ADAFF501EDE915500BCD894 /* WebServicesDataProviderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADAFF4F1EDE915500BCD894 /* WebServicesDataProviderDelegate.swift */; };
 		0AF610C81ED97C64009981C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF610C71ED97C64009981C2 /* AppDelegate.swift */; };
 		0AF610CA1ED97C65009981C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF610C91ED97C65009981C2 /* ViewController.swift */; };
 		0AF610CD1ED97C65009981C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AF610CB1ED97C65009981C2 /* Main.storyboard */; };
 		0AF610CF1ED97C65009981C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AF610CE1ED97C65009981C2 /* Assets.xcassets */; };
 		0AF610D21ED97C65009981C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AF610D01ED97C65009981C2 /* LaunchScreen.storyboard */; };
+		9706EDF0C863D5694DBEFCF0 /* Pods_HPGIT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75E1EEA0BEF5DE7B6C919CA7 /* Pods_HPGIT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0ADAFF4F1EDE915500BCD894 /* WebServicesDataProviderDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServicesDataProviderDelegate.swift; sourceTree = "<group>"; };
 		0AF610C41ED97C64009981C2 /* HPGIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPGIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF610C71ED97C64009981C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AF610C91ED97C65009981C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,9 @@
 		0AF610CE1ED97C65009981C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AF610D11ED97C65009981C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AF610D31ED97C65009981C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75E1EEA0BEF5DE7B6C919CA7 /* Pods_HPGIT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HPGIT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		962883C158052A92E3A46422 /* Pods-HPGIT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPGIT.release.xcconfig"; path = "Pods/Target Support Files/Pods-HPGIT/Pods-HPGIT.release.xcconfig"; sourceTree = "<group>"; };
+		F87C357BF9949189742B9725 /* Pods-HPGIT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPGIT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HPGIT/Pods-HPGIT.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9706EDF0C863D5694DBEFCF0 /* Pods_HPGIT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				0AF610C61ED97C64009981C2 /* HPGIT */,
 				0AF610C51ED97C64009981C2 /* Products */,
+				B1D6BF2D912C77A422232978 /* Pods */,
+				1BE684277862F82F4B2566AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +69,26 @@
 				0AF610CE1ED97C65009981C2 /* Assets.xcassets */,
 				0AF610D01ED97C65009981C2 /* LaunchScreen.storyboard */,
 				0AF610D31ED97C65009981C2 /* Info.plist */,
+				0ADAFF4F1EDE915500BCD894 /* WebServicesDataProviderDelegate.swift */,
 			);
 			path = HPGIT;
+			sourceTree = "<group>";
+		};
+		1BE684277862F82F4B2566AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75E1EEA0BEF5DE7B6C919CA7 /* Pods_HPGIT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1D6BF2D912C77A422232978 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F87C357BF9949189742B9725 /* Pods-HPGIT.debug.xcconfig */,
+				962883C158052A92E3A46422 /* Pods-HPGIT.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AF610D61ED97C65009981C2 /* Build configuration list for PBXNativeTarget "HPGIT" */;
 			buildPhases = (
+				A68AF40303DE4B59EDB3C4FF /* [CP] Check Pods Manifest.lock */,
 				0AF610C01ED97C62009981C2 /* Sources */,
 				0AF610C11ED97C62009981C2 /* Frameworks */,
 				0AF610C21ED97C62009981C2 /* Resources */,
+				32346D734EAD4FDA3E3A5506 /* [CP] Embed Pods Frameworks */,
+				513F18D3BBE418FD13727C9A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,11 +161,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		32346D734EAD4FDA3E3A5506 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HPGIT/Pods-HPGIT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		513F18D3BBE418FD13727C9A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HPGIT/Pods-HPGIT-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A68AF40303DE4B59EDB3C4FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0AF610C01ED97C62009981C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ADAFF501EDE915500BCD894 /* WebServicesDataProviderDelegate.swift in Sources */,
 				0AF610CA1ED97C65009981C2 /* ViewController.swift in Sources */,
 				0AF610C81ED97C64009981C2 /* AppDelegate.swift in Sources */,
 			);
@@ -209,6 +288,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -251,6 +331,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -258,9 +339,12 @@
 		};
 		0AF610D71ED97C65009981C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F87C357BF9949189742B9725 /* Pods-HPGIT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HPGIT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ibl.HPGIT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,9 +354,12 @@
 		};
 		0AF610D81ED97C65009981C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 962883C158052A92E3A46422 /* Pods-HPGIT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HPGIT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ibl.HPGIT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +386,7 @@
 				0AF610D81ED97C65009981C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
