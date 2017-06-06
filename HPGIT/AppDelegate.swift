@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate
         //Appdelegate File
         
         
-        // WInter is coming
+        // WInter is coming.
         
         return true
     }
