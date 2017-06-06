@@ -21,6 +21,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //HEllo JADU & PADU
         
+        
+        //Test 2
+        
         return true
     }
 
