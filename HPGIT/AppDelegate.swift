@@ -8,8 +8,10 @@
 
 import UIKit
 
+
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate
+{
 
     var window: UIWindow?
 
@@ -18,7 +20,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     {
         
         // Override point for customization after application launch
-        //new change
+        //Appdelegate File
+        
+        
+        // WInter is coming.
         
         return true
     }
