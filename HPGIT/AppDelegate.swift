@@ -17,23 +17,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        //Hello vishal here
         
-        //HEllo JADU & PADU
         
         return true
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
-       //Hello vishal here
     }
 
     func applicationDidEnterBackground(_ application: UIApplication) {
-//Hello bhargav here
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {
-    //Hello pradip here
         
     }
 
