@@ -19,6 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //LABABK UPDATE
         
+        //HEllo JADU & PADU
+        
         return true
     }
 
