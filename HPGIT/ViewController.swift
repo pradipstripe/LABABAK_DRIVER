@@ -15,15 +15,10 @@ class ViewController: UIViewController
     
     override func viewDidLoad()
     {
+        
         super.viewDidLoad()
         
-        //Hello Pradip 12345
         
-        //HEllo 12345
-        
-      //  // HP PATEL HERE.....///
-        
-        //vishal here
 
         Get_client_list()
     }
